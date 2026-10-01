@@ -28,16 +28,12 @@ Chef Claude is an AI-powered recipe generator that helps users create recipes fr
 
 Clone the repository and navigate to the project directory:
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd react-section3-chef-claude
-```
+git clone https://github.com/shreya-h06/chef-claude.git
+cd chef-claude
 
 Install the dependencies:
 
-```bash
 npm install
-```
 
 ### Environment Variables
 
@@ -54,15 +50,11 @@ Replace the placeholder with your Hugging Face access token. Keep your `.env` fi
 
 Start the backend in one terminal:
 
-```bash
 node server.js
-```
 
 Start the frontend in a separate terminal:
 
-```bash
 npm run dev
-```
 
 Open the local URL provided by Vite in your browser.
 
@@ -77,15 +69,14 @@ Open the local URL provided by Vite in your browser.
 
 ## Project Structure
 
-```text
 src/
 ├── components/
-│   ├── ClaudeRecipe.jsx
-│   ├── Header.jsx
-│   ├── IngredientsList.jsx
-│   └── Main.jsx
+│ ├── ClaudeRecipe.jsx
+│ ├── Header.jsx
+│ ├── IngredientsList.jsx
+│ └── Main.jsx
 ├── images/
-│   └── chef-claude-icon.png
+│ └── chef-claude-icon.png
 ├── ai.js
 ├── App.jsx
 ├── index.css
@@ -94,7 +85,6 @@ src/
 server.js
 package.json
 package-lock.json
-```
 
 ## Future Improvements
 
